@@ -1,0 +1,12 @@
+body, html, ol, ul, div, img{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+
+.firstIMG, img{
+    width: 100%;
+    overflow: hidden;
+}
