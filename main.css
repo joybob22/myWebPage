@@ -30,14 +30,14 @@ body, html {
     color: white;
     width: 185px;
     float: left;
-    margin: 10px 0 0 25px;
+    margin: 10px 0 0 20px;
     font-size: 25px;
     font-weight: bold;
     font-family: didot, sans-serif;
 }
 
 .navRight {
-    width: 370px;
+    width: 400px;
     float: right;
     margin: 10px 10px 0 0;
     font-size: 25px;
@@ -129,7 +129,7 @@ h3, p {
     margin: 0 auto;
 }
 
-.photoHeading, .sportsHeading {
+.photoHeading, .outdoorsHeading, .programmingHeading {
     background-color: #BBB;
     opacity: 0.7;
     border-radius: 5px;
@@ -150,13 +150,15 @@ h4 {
 
 .photoContentOut {
     width: 100%;
-    height: 42%;
     background-color: #BBB;
+    overflow: hidden;
 }
 
-.photoContentIn {
+.photoContentIn, .outdoorsContentIn {
     width: 60%;
     margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 5px;
 }
 
 p {
@@ -168,6 +170,8 @@ p {
     width: 50%;
     float: left;
     text-align: left;
+    overflow: hidden;
+    padding-bottom: 10px;
 }
 
 .flowerIMG {
@@ -176,6 +180,7 @@ p {
     margin-top: 30px;
     border: 4px solid #888;
     border-radius: 3px;
+    margin-bottom: 30px;
 }
 
 .parallax2 {
@@ -187,7 +192,43 @@ p {
     background-size: cover;
 }
 
-.sportsHeading {
+.outdoorsHeading {
     width: 600px;
+    margin: 0 auto;
+}
+
+.outdoorsContentOut {
+    width: 100%;
+    background-color: #222;
+    color: white;
+}
+
+.outdoorsContentIn {
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.outdoorsIMGS {
+    margin-top: 20px;
+}
+
+.snowboarding, .arch, .canyonlands {
+    float: left;
+    width: 25%;
+    margin-left: 90px;
+}
+
+.parallax3 {
+    background-image: url(computer-programming-img.jpeg);
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.programmingHeading {
+    width: 800px;
     margin: 0 auto;
 }
