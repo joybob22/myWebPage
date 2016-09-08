@@ -129,7 +129,7 @@ h3, p {
     margin: 0 auto;
 }
 
-.photoHeading, .outdoorsHeading, .programmingHeading {
+.photoHeading, .outdoorsHeading, .programmingHeading, .packersHeading {
     background-color: #BBB;
     opacity: 0.7;
     border-radius: 5px;
@@ -266,4 +266,18 @@ p {
 .programmingIMG {
     float: left;
     width: 35%;
+}
+
+.parallax4 {
+    background-image: url(packers-logo.jpg);
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.packersHeading {
+    width: 550px;
+    margin: 0 auto;
 }
