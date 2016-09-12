@@ -129,7 +129,7 @@ h3, p {
     margin: 0 auto;
 }
 
-.photoHeading, .outdoorsHeading, .programmingHeading, .packersHeading {
+.photoHeading, .outdoorsHeading, .programmingHeading, .packersHeading, .goalsHeading{
     background-color: #BBB;
     opacity: 0.7;
     border-radius: 5px;
@@ -254,8 +254,9 @@ p {
     background-color: #F0F0f5;
 }
 
-.programmingContentIn {
+.programmingContentIn, .packersContentIn, .goalsContentIn {
     width: 80%;
+    margin: 0 auto;
     padding: 30px 0;
 }
 
@@ -281,4 +282,66 @@ p {
 .packersHeading {
     width: 550px;
     margin: 0 auto;
+}
+
+.packersContentOut {
+    width: 100%;
+    background-color: #888;
+    overflow: hidden;
+}
+
+.aaronRodgerIMG, .jordyNelsonIMG, .eddieLacyIMG {
+    width: 30%;
+    float: left;
+    margin: 0 auto;
+}
+
+.aaronRodgerIMG, .eddieLacyIMG {
+    margin-left: 3%;
+}
+
+.packersIMGS {
+    margin: auto;
+    overflow: hidden;
+    display: block;
+}
+
+.packersP {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.parallax5 {
+    background-image: url("mansion.jpg");
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.goalsHeading {
+    width: 425px;
+    margin: 0 auto;
+}
+
+.goalsContentOut {
+    width: 100%;
+    background-color: #eee;
+    overflow: hidden;
+}
+
+.ring, .education, .softwareDeveloperIMG {
+    float: left;
+    width: 30%;
+    margin: auto;
+}
+
+.ring, .softwareDeveloperIMG {
+    margin-left: 3%;
+}
+
+.goalsIMGS {
+    margin-top: 20px;
 }
