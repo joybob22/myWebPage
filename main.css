@@ -202,9 +202,10 @@ p {
     background-image: url(meBasketball.jpg);
     height: 800px;
     background-attachment: fixed;
-    background-position: center;
+    background-position: 50% 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 .outdoorsHeading {
