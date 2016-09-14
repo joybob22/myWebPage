@@ -1,0 +1,15 @@
+.plane {
+    margin-top: 5px;
+    font-size: 40px;
+}
+
+.resumeParallax {
+    positition: relative;
+    background-image: url(resumeParallax.jpg);
+    width: 100%;
+    height: 95%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

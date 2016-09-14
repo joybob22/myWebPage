@@ -30,10 +30,16 @@ body, html {
     color: white;
     width: 185px;
     float: left;
-    margin: 10px 0 0 20px;
+    margin: 10px 0 0 7px;
     font-size: 25px;
     font-weight: bold;
     font-family: didot, sans-serif;
+}
+
+.icon {
+    float: left;
+    margin-left: 20px;
+    color: white;
 }
 
 .navRight {
@@ -51,7 +57,7 @@ body, html {
     transition: all 0.5s;
 }
 
-#nav1 {
+.active {
     text-decoration: underline;
 }
 
@@ -335,7 +341,7 @@ p {
 .ring, .education, .softwareDeveloperIMG {
     float: left;
     width: 30%;
-    margin: auto;
+    margin: 0 auto 30px auto;
 }
 
 .ring, .softwareDeveloperIMG {
@@ -343,5 +349,5 @@ p {
 }
 
 .goalsIMGS {
-    margin-top: 20px;
+    padding: 30px 0;
 }
