@@ -1,0 +1,45 @@
+.peace {
+    padding-top: 2px;
+    font-size: 45px;
+}
+
+.contactParallax {
+    positition: relative;
+    background-image: url(woodchip.jpg);
+    width: 100%;
+    height: 95%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactContent {
+    background-color: #888;
+    height: 1000px;
+}
+
+form {
+    width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+label {
+    color: white;
+    font-size: 45px;
+    font-family: "Kaiti TC", sans-serif;
+}
+
+input, #info {
+    margin-top: 15px;
+    float: right;
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+}
+
+#info {
+    width: 99%;
+    height: 200px;
+}
