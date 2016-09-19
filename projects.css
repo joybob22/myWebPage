@@ -39,9 +39,14 @@ h2 {
     margin-bottom: 20px;
 }
 
-.minesweeperContainer:hover, .firstWebsiteContainer:hover {
+.minesweeperContainer:hover {
     border: 5px solid #777;
     box-shadow: 10px 10px 20px #AAA;
+}
+
+.firstWebsiteContainer:hover {
+    border: 5px solid #777;
+    box-shadow: -10px 10px 20px #AAA;
 }
 
 
