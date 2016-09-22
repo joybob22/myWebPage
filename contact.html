@@ -9,8 +9,10 @@
     </head>
     <body>
         <div class="navBar">
-            <i class="fa fa-hand-peace-o fa-3x icon peace" aria-hidden="true"></i>
-            <div class="myName">Brayden Lemke</div>
+            <div class="navLeft">
+                <i class="fa fa-hand-peace-o fa-3x icon peace" aria-hidden="true"></i>
+                <div class="myName">Brayden Lemke</div>
+            </div>
             <div class="navRight">
                 <a href="index.html">
                     <span id="nav1" class="nav">About Me</span>
@@ -43,7 +45,7 @@
                     </div>
 
                     <div class="floatLeft">
-                        <label for="last-name">Last Name:</label>
+                        <label for="last-name" id="lastName">Last Name:</label>
                         <div class="negativeMargin">
                             <input type="text" placeholder="Last Name" id="last-name">
                         </div>
@@ -67,7 +69,9 @@
                         <label for="info">What would you like to tell me?</label>
                         <textarea type="text" id="info" placeholder="Message"></textarea>
                     </div>
-
+                    <div class="submitButton">
+                        <input type="submit" value="submit" id="submitButton">
+                    </div>
                 </form>
                 <h4 class="warning">Warning! A work in progress. Does not work!</h4>
             </div>

@@ -4,7 +4,7 @@
 }
 
 .resumeParallax {
-    positition: relative;
+    position: relative;
     background-image: url(woodchip.jpg);
     width: 100%;
     height: 95%;

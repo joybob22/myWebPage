@@ -3,7 +3,7 @@
 }
 
 .projectsParallax {
-    positition: relative;
+    position: relative;
     background-image: url(projectsParallax.jpg);
     width: 100%;
     height: 95%;
