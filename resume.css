@@ -13,3 +13,40 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+h4 {
+    font-size: 35px;
+    color: antiquewhite;
+}
+
+.sectionHeader {
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.resumeContent {
+    width: 100%;
+    background-color: #333333;
+}
+
+.contentContainers {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.experienceClick {
+    width: 100%;
+    height: 50px;
+    background-color: darkred;
+    border-radius: 5px;
+}
+
+.arrow {
+    color: antiquewhite;
+    font-size: 50px;
+    margin-left: 10px;
+    transform: rotate(270deg);
+    float: left;
+}
