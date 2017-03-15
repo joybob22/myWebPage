@@ -22,15 +22,17 @@
 .projectsContent {
     width: 80%;
     margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 50px;
 }
 
-.minesweeperContainer {
+.leftContainers {
     float: left;
     width: 45%;
     transition: all 0.2s;
 }
 
-.minesweeperIMG {
+.minesweeperIMG, .golfScorecardIMG, .flappyIMG, .todoAppIMG {
     width: 100%;
 }
 
@@ -39,14 +41,16 @@ h2 {
     margin-bottom: 20px;
 }
 
-.minesweeperContainer:hover {
+.leftContainers:hover {
     border: 5px solid #777;
     box-shadow: 10px 10px 20px #AAA;
+    cursor: pointer;
 }
 
-.firstWebsiteContainer:hover {
+.rightContainers:hover {
     border: 5px solid #777;
     box-shadow: -10px 10px 20px #AAA;
+    cursor: pointer;
 }
 
 
@@ -55,7 +59,7 @@ a {
     color: black;
 }
 
-.firstWebsiteContainer {
+.rightContainers {
     float: right;
     width: 45%;
     transition: all 0.2s;
