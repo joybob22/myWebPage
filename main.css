@@ -165,11 +165,11 @@ h4 {
     width: 60%;
     margin: 0 auto;
     overflow: hidden;
-    padding-bottom: 5px;
 }
 
 .photoContentIn {
     width: 75%;
+    padding: 100px 0;
 }
 
 p {
@@ -228,8 +228,7 @@ p {
 
 .outdoorsContentIn {
     width: 80%;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 100px 0;
 }
 
 .outdoorsIMGS {
@@ -264,7 +263,7 @@ p {
 .programmingContentIn, .packersContentIn, .goalsContentIn {
     width: 80%;
     margin: 0 auto;
-    padding: 30px 0;
+    padding: 100px 0;
 }
 
 .programmingP {
@@ -342,7 +341,7 @@ p {
 .ring, .education, .softwareDeveloperIMG {
     float: left;
     width: 30%;
-    margin: 0 auto 30px auto;
+    margin: 0 auto 100px auto;
 }
 
 .ring, .softwareDeveloperIMG {
