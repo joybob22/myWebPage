@@ -382,3 +382,9 @@ p {
         width: 100%;
     }
 }
+
+@media only screen and (max-device-width: 1024px) {
+    .parallaxImg {
+        background-attachment: scroll;
+    }
+}
