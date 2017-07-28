@@ -37,7 +37,11 @@
 }
 
 p {
-    text-align: center;
+
+
+    font-family: Helvetica;
+    font-weight: 100;
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -69,7 +73,7 @@ h4 {
 
 .resumeContent {
     width: 100%;
-    background-color: #333333;
+    background-color: #424242;
 }
 
 .contentContainers {
@@ -81,7 +85,7 @@ h4 {
 .educationClick, #workClick, #summaryClick {
     width: 100%;
     height: 50px;
-    background-color: darkred;
+    background-color: #B71C1C;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -96,8 +100,12 @@ h4 {
 
 .educationContent {
     width: 100%;
-    background-color: #b30000;
+    background-color: #F44336;
     border-radius: 0 0 5px 5px;
+}
+
+.educationContent p, #workContent p {
+    margin-left: 30px;
 }
 
 .shadow {
@@ -105,31 +113,40 @@ h4 {
     position: relative;
     width: 100%;
     height: 100%;
-    box-shadow: 0px 2px 4px black;
+    box-shadow: 0 2px 4px black;
 }
 
 #workClick {
-    background-color: #000080;
+    background-color: #283593;
 }
 
 .needMargin {
     margin-top: 50px;
 }
 
+.needPadding {
+    padding-top: 50px;
+}
+
+.center {
+    text-align: center;
+}
+
 #workContent {
     width: 100%;
-    height: 300px;
-    background-color: #2f5cb6;
+    background-color: #3F51B5;
     border-radius: 0 0 5px 5px;
 }
 
 #summaryClick {
-    background-color: #cca300;
+    /*background-color: #cca300;*/
+    background-color: #FBC02D;
 }
 
 #summaryContent {
     width: 100%;
-    background-color: #ffcc00;
+    /*background-color: #ffcc00;*/
+    background-color: #FFEB3B;
     border-radius: 0 0 5px 5px;
 }
 
@@ -145,4 +162,8 @@ h4 {
 
 .skills > img {
     width: 100%;
+}
+
+#HSContent1 {
+    display: none;
 }

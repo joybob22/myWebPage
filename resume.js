@@ -1,10 +1,16 @@
 var confidentSkillsCounter = 0;
+var educationCounter = 0;
+var workCounter = 0;
 
 $(".educationClick").on("click", function() {
     $("#arrow1").toggleClass("hideContentRotate");
     $("#arrow1").toggleClass("showContentRotate");
     $("#shadow1").toggle();
     $(".educationContent").slideToggle();
+    if(educationCounter === 0) {
+        typeHeader("Code To Success - 2016", "#CTSHeader", afterToggle, [1, "CTSContent", 2, 3]);
+        educationCounter++;
+    }
 });
 
 $("#workClick").on("click", function() {
@@ -12,6 +18,10 @@ $("#workClick").on("click", function() {
     $("#arrow2").toggleClass("showContentRotate");
     $("#shadow2").toggle();
     $("#workContent").slideToggle();
+    if(workCounter === 0) {
+        typeHeader("McDonalds - Summer 2015", "#MDHeader", afterToggle, [1, "MDContent", 2, 5]);
+        workCounter++;
+    }
 });
 
 $("#summaryClick").on("click", function() {
@@ -29,15 +39,34 @@ $("#summaryClick").on("click", function() {
 });
 
 $("#continue1").on("click", function() {
-    $("#continue1").css("display", "none");
+    $(this).css("display", "none");
     typeHeader("Other skills I can use or am still a beginner at:", "#canWorkWithTitle", afterToggle, [1, "otherSkills", 5, 2 ]);
 });
 
 $("#continue2").on("click", function() {
-    $("#continue2").css("display", "none");
-    typeHeader("Skills I am currently learning:", "#learningSkillsHeader", afterToggle, [1, "learningSkills", 4, 3]);
+    $(this).css("display", "none");
+    typeHeader("Skills I am currently learning:", "#learningSkillsHeader", afterToggle, [1, "learningSkills", 4, null]);
 });
 
+$("#continue3").on("click", function() {
+    $(this).css("display", "none");
+    typeHeader("Westlake High School - 2017", "#HSHeader", afterToggle, [1, "HSContent", 2, 4]);
+});
+
+$("#continue4").on("click", function() {
+    $(this).css("display", "none");
+    typeHeader("Mountainland Applied Technology College - 2017", "#TechCollegeHeader", afterToggle, [1, "TechContent", 2, null]);
+});
+
+$("#continue5").on("click", function() {
+    $(this).css("display", "none");
+    typeHeader("Code To Success - 2017", "#MentorHeader", afterToggle, [1, "MentorContent", 2, 6]);
+});
+
+$("#continue6").on("click", function() {
+    $(this).css("display", "none");
+    typeHeader("Nuvi - 2017", "#NuviHeader", afterToggle, [1, "NuviContent", 2, null]);
+});
 
 
 
@@ -70,7 +99,6 @@ function afterToggle(params) {
 
     if( params[0] === params[2]) {
         $("#continue" + params[3]).css("display", "block");
-        console.log(params[3]);
         return true;
     } else {
         $("#" + params[1] + "" + params[0]).slideToggle(800, "swing", function() {
